@@ -90,6 +90,15 @@
                                     <rect key="frame" x="16" y="80" width="368" height="76"/>
                                 </variation>
                             </label>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="STz-Fh-fuv">
+                                <rect key="frame" x="0.0" y="-21" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="16" y="178" width="42" height="21"/>
+                                </variation>
+                            </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YdX-y4-k93">
                                 <rect key="frame" x="-23" y="-15" width="46" height="30"/>
                                 <color key="backgroundColor" red="1" green="0.66450859933587414" blue="0.24995966715963047" alpha="1" colorSpace="calibratedRGB"/>
@@ -112,6 +121,7 @@
                                 <exclude reference="BRi-lL-68E"/>
                                 <exclude reference="UyB-he-ogD"/>
                                 <exclude reference="Kxo-sQ-mvY"/>
+                                <exclude reference="STz-Fh-fuv"/>
                                 <exclude reference="YdX-y4-k93"/>
                             </mask>
                         </variation>
@@ -121,6 +131,7 @@
                                 <include reference="BRi-lL-68E"/>
                                 <include reference="UyB-he-ogD"/>
                                 <include reference="Kxo-sQ-mvY"/>
+                                <include reference="STz-Fh-fuv"/>
                                 <include reference="YdX-y4-k93"/>
                             </mask>
                         </variation>
@@ -130,6 +141,7 @@
                         <outlet property="enterNameTextField" destination="UyB-he-ogD" id="2tM-dO-N8g"/>
                         <outlet property="mailButton" destination="YdX-y4-k93" id="sH2-eb-2WY"/>
                         <outlet property="messageLabel" destination="Kxo-sQ-mvY" id="5Xg-U0-bq7"/>
+                        <outlet property="nameLabel" destination="STz-Fh-fuv" id="31A-0O-9tT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
